@@ -1,9 +1,9 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="bg-[#17171C] border-solid border-b-[8px] border-[#FFC007] md:bg-[url('/svg/half_moon.svg')] bg-no-repeat bg-right-top header_half_moon_img md:bg-right-bottom">
+    <div className="bg-[#17171C] border-solid relative border-b-[8px] border-[#FFC007] md:bg-[url('/svg/half_moon.svg')] bg-no-repeat bg-right-top header_half_moon_img md:bg-right-bottom">
       <div className="px-5 container mx-auto relative overflow-hidden">
         <div>
           <div>
@@ -36,6 +36,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className='absolute bottom-0 right-0'>
+          <Image alt='img' height={900} width={450} src="https://limonpay.uz/assets/iphone-4-807d87d7.png"/>
         </div>
       </div>
     </div>

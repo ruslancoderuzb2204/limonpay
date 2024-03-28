@@ -263,7 +263,7 @@ const Kurs = () => {
                         -23.02
                       </span>
                       <img
-                        src="https://limonpay.uz/svg/arrow_up.svg"
+                        src="https://limonpay.uz/svg/arrow-down.svg"
                         alt="arrow_down"
                         className=""
                       />
